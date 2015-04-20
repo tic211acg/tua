@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuaproperties:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tuaproperties="http://tuaproperties/1.0" tuaName="m1">
+  <property value="medium" propertyName="understandability" catalogueName="DefaultCatalogueExample">
+    <propertyDefinition xsi:type="tuaproperties:Functional" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.0"/>
+  </property>
+  <property value="low" propertyName="ratioOfRedundantFields" catalogueName="Class2RelationalCatalogue">
+    <propertyDefinition xsi:type="tuaproperties:Functional" href="Class2RelationalCatalogue.tuaproperties#//@propertyDefinition.2"/>
+  </property>
+  <rule tuaName="r1">
+    <property value="1" propertyName="numberOfOutputModels" catalogueName="DefaultCatalogueExample">
+      <propertyDefinition xsi:type="tuaproperties:Functional" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.1"/>
+    </property>
+    <property value="high" propertyName="understandability" catalogueName="DefaultCatalogueExample">
+      <propertyDefinition xsi:type="tuaproperties:ISOIEC" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.6"/>
+    </property>
+  </rule>
+  <rule tuaName="r2">
+    <property value="medium" propertyName="understandability" catalogueName="DefaultCatalogueExample">
+      <propertyDefinition xsi:type="tuaproperties:ISOIEC" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.6"/>
+    </property>
+    <property value="medium" propertyName="reusability" catalogueName="DefaultCatalogueExample">
+      <propertyDefinition xsi:type="tuaproperties:ISOIEC" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.8"/>
+    </property>
+  </rule>
+</tuaproperties:Module>

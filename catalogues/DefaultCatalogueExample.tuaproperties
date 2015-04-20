@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuaproperties:DefaultCatalogue xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tuaproperties="http://tuaproperties/1.0" name="DefaultCatalogue">
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="numberOfInputModels">
+    <valueDefinition xsi:type="tuaproperties:SingleIntegerValue" unit="-"/>
+    <relatedProp extraFProp="//@propertyDefinition.6" relationshipType="negative" relationshipLevel="high"/>
+    <relatedProp extraFProp="//@propertyDefinition.7" relationshipType="negative" relationshipLevel="high"/>
+    <relatedProp extraFProp="//@propertyDefinition.8" relationshipType="negative" relationshipLevel="high"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="numberOfOutputModels">
+    <valueDefinition xsi:type="tuaproperties:SingleIntegerValue" unit="-"/>
+    <relatedProp extraFProp="//@propertyDefinition.6" relationshipType="negative"/>
+    <relatedProp extraFProp="//@propertyDefinition.7" relationshipType="negative"/>
+    <relatedProp extraFProp="//@propertyDefinition.8" relationshipType="negative"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="numberOfInputPatterns">
+    <valueDefinition xsi:type="tuaproperties:SingleIntegerValue" unit="-"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="ratioOfHelpers">
+    <valueDefinition xsi:type="tuaproperties:SingleFloatValue" unit="-"/>
+    <relatedProp extraFProp="//@propertyDefinition.6" relationshipType="negative" relationshipLevel="medium"/>
+    <relatedProp extraFProp="//@propertyDefinition.7" relationshipType="negative" relationshipLevel="medium"/>
+    <relatedProp extraFProp="//@propertyDefinition.8" relationshipLevel="medium"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="numberOfCallsToResolveTemp">
+    <valueDefinition xsi:type="tuaproperties:SingleIntegerValue" unit="-"/>
+    <relatedProp extraFProp="//@propertyDefinition.6" relationshipType="negative"/>
+    <relatedProp extraFProp="//@propertyDefinition.7" relationshipType="negative"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="oclExpComplexity">
+    <valueDefinition xsi:type="tuaproperties:SingleIntegerValue" unit="-"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:ISOIEC" name="understandability" propSource="codeIndirect">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:ISOIEC" name="modifiability" propSource="codeIndirect">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:ISOIEC" name="reusability" propSource="codeIndirect">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:ISOIEC" name="completeness" propSource="codeIndirect">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:OtherQuality" name="performance" propSource="codeIndirect">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:OtherExtraF" name="author" propSource="developer">
+    <valueDefinition xsi:type="tuaproperties:SingleStringValue"/>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:OtherExtraF" name="lastUpdate" propSource="developer">
+    <valueDefinition xsi:type="tuaproperties:SingleStringValue"/>
+  </propertyDefinition>
+</tuaproperties:DefaultCatalogue>

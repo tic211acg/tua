@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuaproperties:Rule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tuaproperties="http://tuaproperties/1.0" tuaName="r1">
+  <property value="medium" propertyName="performance" catalogueName="DefaultCatalogueExample">
+    <propertyDefinition xsi:type="tuaproperties:OtherQuality" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.10"/>
+  </property>
+  <property value="0.5" propertyName="ratioOfHelpers" catalogueName="DefaultCatalogueExample">
+    <propertyDefinition xsi:type="tuaproperties:Functional" href="DefaultCatalogueExample.tuaproperties#//@propertyDefinition.3"/>
+  </property>
+</tuaproperties:Rule>

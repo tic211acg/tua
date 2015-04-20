@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tuaproperties:DomainCatalogue xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tuaproperties="http://tuaproperties/1.0" name="Class2RelationalCatalogue" domain="Class2Relational">
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="ratioOfTables" propSource="developer">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="ratioOfNullFields" propSource="developer">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+  <propertyDefinition xsi:type="tuaproperties:Functional" name="ratioOfRedundantFields" propSource="developer">
+    <valueDefinition xsi:type="tuaproperties:EnumerationStringValue">
+      <value>low</value>
+      <value>medium</value>
+      <value>high</value>
+    </valueDefinition>
+  </propertyDefinition>
+</tuaproperties:DomainCatalogue>
